@@ -1,21 +1,23 @@
-body{
-    background: url("https://cdn.jsdelivr.net/gh/youranium/source-cdn/images/Logo2.jpg") no-repeat center;    
+body {
+    background: url("https://cdn.jsdelivr.net/gh/youranium/source-cdn/images/Logo2.jpg") no-repeat;    
     background-attachment: fixed;
+    background-position-y: 230px;
+    background-position-x: center;
 }
 
-.navbar{
+.navbar {
     display: block;
     background-color: white;
     height: 7rem;
     line-height: 2rem;
 }
 
-.Logo{
+.Logo {
     padding-left: 164px;
     padding-top: 25px;
 }
 
-.navbar-top{   
+#menu-bar {   
     padding-left: 144px;
     display: block;
     background-color: rgb(239,178,73,255);
@@ -23,7 +25,7 @@ body{
     word-spacing: -1rem;
 }
 
-.menu-item{
+#menu-bar a {
     display: inline-block;
     height: 3.3rem;
     width: 4rem;
@@ -33,15 +35,19 @@ body{
     color: rgb(82, 79, 79);
     font-size: 15px;
     transition-duration: 0.4s;
-    border: none;
 }  
 
-  .menu-item:hover {
+#menu-bar a:hover {
     background-color: rgb(250, 200, 136);
     color: white;
   }
 
-  footer{
+#menu-bar a img {
+    display: inline-block;
+    height: 17px;
+}
+
+footer {
     display: block;
     background-color: rgba(43,43,43,255);
     border-bottom: 0;
