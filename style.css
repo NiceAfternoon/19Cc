@@ -1,26 +1,61 @@
-#logo-div {
-  height: 70px;
-  text-align: center;
+body {
+    background: url("https://cdn.jsdelivr.net/gh/youranium/source-cdn/images/Logo2.jpg") no-repeat;    
+    background-attachment: fixed;
+    background-position-y: 230px;
+    background-position-x: center;
 }
 
-#menu-bar {
-  background-color: rgb(233, 194, 21);
-  height: 40px;
-  padding: 0 40px;
-  word-spacing: -1em;
+.bkgimg {
+    background-color: rgba(255,255,255,60%);
+}
+
+.navbar {
+    display: block;
+    background-color: white;
+    height: 7rem;
+    line-height: 2rem;
+}
+
+.Logo {
+    padding-left: 164px;
+    padding-top: 25px;
+}
+
+#menu-bar {   
+    padding-left: 144px;
+    display: block;
+    background-color: rgb(239,178,73,255);
+    height: 3.3rem;
+    word-spacing: -1rem;     /*消除换行符的影响*/
 }
 
 #menu-bar a {
-  display: inline-block;
-  line-height: 40px;
-  padding: 0 20px;
-  text-decoration: none;
-  color: #000;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
+    display: inline-block;
+    height: 3.3rem;
+    width: 4.8rem;
+    line-height: 3.3rem;
+    text-align: center; /*设置垂直居中*/
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+    font-size: 15px;
+    transition-duration: 0.4s;
+}  
 
 #menu-bar a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #fff;
+    background-color: rgb(250, 200, 136);
+    color: white;
+    font-size: 16.5px;
 }
+
+.posts {
+    padding-left: 144px;
+}
+
+footer {
+    display: block;
+    background-color: rgba(43,43,43,255);
+    border-bottom: 0;
+    padding: 60px;
+    color: rgba(220,220,220,255);
+}
+  
