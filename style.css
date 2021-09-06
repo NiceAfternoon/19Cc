@@ -6,13 +6,12 @@ body {
 }
 
 .bkgimg {
-    background-color: rgba(255,255,255,60%);
+    background-color: rgba(255,255,255,77%);
 }
 
 .navbar {
     display: block;
     background-color: white;
-    height: 7rem;
     line-height: 2rem;
 }
 
@@ -44,14 +43,49 @@ body {
 #menu-bar a:hover {
     background-color: rgb(250, 200, 136);
     color: white;
-    font-size: 16.5px;
+    font-size: 15.8px;
+}
+
+#home {
+    background-color: rgb(250, 200, 136);
+    color: white !important;
+    font-size: 15.8px !important
+}
+
+#competitions {
+    background-color: rgb(250, 200, 136);
+    color: white !important;
+    font-size: 15.8px !important
+}
+
+#score {
+    background-color: rgb(250, 200, 136);
+    color: white !important;
+    font-size: 15.8px !important
+}
+
+#tools {
+    background-color: rgb(250, 200, 136);
+    color: white !important;
+    font-size: 15.8px !important
+}
+
+#info {
+    background-color: rgb(250, 200, 136);
+    color: white !important;
+    font-size: 15.8px !important
 }
 
 .posts {
+    list-style: none;
     padding-left: 144px;
 }
 
-footer {
+.info {
+    text-align: center;
+}
+
+.footer {
     display: block;
     background-color: rgba(43,43,43,255);
     border-bottom: 0;
