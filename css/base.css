@@ -1,0 +1,72 @@
+/* 全局 css */
+
+/* 框架 */
+
+body {
+    background: url("https://cdn.jsdelivr.net/gh/youranium/source-cdn/images/Logo2.jpg") no-repeat;    
+    background-attachment: fixed;
+    background-position-y: 230px;
+    background-position-x: center;
+}
+
+#bkgimg {
+    background-color: rgba(255,255,255,77%);
+    min-height: 1000px;
+}
+
+/* 导航栏 */
+
+#navbar {
+    display: block;
+    background-color: white;
+    line-height: 2rem;
+}
+
+#logo {
+    padding-left: 164px;
+    padding-top: 25px;
+}
+
+#menu-bar {   
+    padding-left: 144px;
+    display: block;
+    background-color: rgb(239,178,73);
+    height: 3.3rem;
+    word-spacing: -1rem;     /*消除换行符的影响*/
+}
+
+#menu-bar a {
+    display: inline-block;
+    height: 3.3rem;
+    line-height: 3.3rem;
+    width: 4.8rem;
+    text-align: center; /*设置垂直居中*/
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    vertical-align: top;
+    word-spacing: 0;
+}
+
+#menu-bar a:not(#page-active) {
+    color: rgb(82, 79, 79);
+}
+
+/* 菜单栏按钮高亮 */
+
+#page-active,
+#menu-bar a:hover {
+    background-color: rgb(250, 200, 136);
+    color: white;
+    font-size: 15.8px;
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgb(43,43,43);
+    border-bottom: 0;
+    padding: 60px;
+    color: rgba(220,220,220,255);
+}
+  

@@ -1,0 +1,62 @@
+/* 赛事页面 */
+
+.competitions-list-row {
+    list-style: none;
+    padding-top: 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+.competition-item {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    height: 240px;
+    width: 300px;
+    background-color: rgb(239,178,73);
+    text-align: center;
+    transition-timing-function: ease-out;
+    transition-property: height, width, left, right, font-size;
+    transition-duration: 1s;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.competition-item:hover {
+    font-size: 18px;
+    height: 260px;
+    width: 320px;
+}
+
+.competition-item:nth-child(1) {
+    left: 10%;
+}
+
+.competition-item:nth-child(2) {
+    left: calc(50% - 150px);
+}
+
+.competition-item:nth-child(3) {
+    right: 10%;
+}
+
+.competition-item:nth-child(1):hover {
+    left: calc(10% - 10px);
+}
+.competition-item:nth-child(2):hover {
+    left: calc(50% - 160px);
+}
+.competition-item:nth-child(3):hover {
+    right: calc(10% - 10px);
+}
+
+.competition-item a {
+    text-decoration: none;
+    color: rgb(82, 79, 79);
+}
+  
+.competition-img {
+    border-radius: 12px;
+    height: auto;
+    width: 100%;
+}
