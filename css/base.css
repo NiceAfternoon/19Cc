@@ -48,7 +48,7 @@ body {
     word-spacing: 0;
 }
 
-#menu-bar a:not(#page-active) {
+#menu-bar a:not(#page-active, #menu-bar a:hover) {
     color: rgb(82, 79, 79);
 }
 
