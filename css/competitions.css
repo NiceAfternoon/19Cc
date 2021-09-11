@@ -3,6 +3,7 @@
 /* 比赛行（一行三个比赛） */
 .competitions-list-row {
     position: relative;
+    padding: 0;
     height: 280px;
     display: flex;
     align-items: center;
@@ -25,11 +26,6 @@
     transition-duration: 1s;
 }
 
-.competition-item:hover {
-    width: 320px;
-    font-size: 18px;
-}
-
 /* 比赛标题 */
 .competition-item a {
     color: rgb(82, 79, 79);
@@ -41,45 +37,66 @@
     height: 240px;
 }
 
-.major-competition:hover {
-    height: 255px;
-}
-
 /* 次要的比赛，如 CY2021 */
 .minor-competition {
     height: 210px;
 }
 
-.minor-competition:hover {
-    height: 225px;
-}
-
-/* 每行各个比赛的位置（左，中，右） */
-.competition-item:nth-child(1) {
-    left: 10%;
-}
-
-.competition-item:nth-child(2) {
-    left: calc(50% - 150px);
-}
-
-.competition-item:nth-child(3) {
-    right: 10%;
-}
-
-/* 针对每行各个比赛hover时的位置偏移微调 */
-.competition-item:nth-child(1):hover {
-    left: calc(10% - 10px);
-}
-.competition-item:nth-child(2):hover {
-    left: calc(50% - 160px);
-}
-.competition-item:nth-child(3):hover {
-    right: calc(10% - 10px);
-}
-  
 .competition-img {
     height: auto;
     width: 100%;
     border-radius: 12px;
+}
+
+/* 桌面端适配样式 */
+@media screen and (min-width: 769px) {
+    
+    /* 每行各个比赛的位置（左，中，右） */
+    .competition-item:nth-child(1) {
+        left: 10%;
+    }
+    
+    .competition-item:nth-child(2) {
+        left: calc(50% - 150px);
+    }
+    
+    .competition-item:nth-child(3) {
+        right: 10%;
+    }
+
+    /* 针对每行各个比赛hover时的位置偏移微调 */
+    .competition-item:nth-child(1):hover {
+        left: calc(10% - 10px);
+    }
+    .competition-item:nth-child(2):hover {
+        left: calc(50% - 160px);
+    }
+    .competition-item:nth-child(3):hover {
+        right: calc(10% - 10px);
+    }
+    
+    .competition-item:hover {
+        width: 320px;
+        font-size: 18px;
+    }
+    
+    .major-competition:hover {
+        height: 255px;
+    }
+    
+    .minor-competition:hover {
+        height: 225px;
+    }
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+    .competitions-list-row {
+        flex-direction: column;
+    }
+    
+    .competition-item {
+        position: relative;
+        margin-bottom: 30px;
+    }
 }
