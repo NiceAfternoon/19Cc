@@ -48,26 +48,24 @@
 
         <!-- 移动端菜单栏 -->
         <div id="menu-bar-mobile">
-            <button>
-                菜单
-                <div id="menu-mobile">
-                    <a href="index.html" id="page-active">
-                        <i class="fa fa-home"></i> 首页
-                    </a>
-                    <a href="competitions.html">
-                        <i class="fa fa-cubes"></i> 赛事
-                    </a>
-                    <a href="">
-                        <i class="fa fa-newspaper-o"></i> 成绩
-                    </a>
-                    <a href="https://cdn.jsdelivr.net/gh/youranium/source-cdn/tools/2021DoubleNinthCompetition.docx">
-                        <i class="fa fa-wrench"></i> 工具
-                    </a>
-                    <a href="about.html">
-                        <i class="fa fa-info-circle"></i> 关于
-                    </a>
-                </div>
-            </button>
+            <button onclick="openMenu()" onblur="openMenu()">菜单</button>
+            <div id="menu-mobile">
+                <a href="index.html" id="page-active">
+                    <i class="fa fa-home"></i> 首页
+                </a>
+                <a href="competitions.html">
+                    <i class="fa fa-cubes"></i> 赛事
+                </a>
+                <a href="">
+                    <i class="fa fa-newspaper-o"></i> 成绩
+                </a>
+                <a href="https://cdn.jsdelivr.net/gh/youranium/source-cdn/tools/2021DoubleNinthCompetition.docx">
+                    <i class="fa fa-wrench"></i> 工具
+                </a>
+                <a href="about.html">
+                    <i class="fa fa-info-circle"></i> 关于
+                </a>
+            </div>
         </div>
     </div>
 
@@ -81,4 +79,20 @@
     &copy;2021十九魔方社
 </div>
 </body>
+
+<script>
+var mobileMenu = document.getElementById('menu-mobile')
+var isMenuOpen = false
+
+function openMenu() {
+    if (isMenuOpen) {
+        mobileMenu.style.height = '0'
+        mobileMenu.style.boxShadow = ''
+    } else {
+        mobileMenu.style.height = 5 * 35 + 'px'
+        mobileMenu.style.boxShadow = '0 5px 10px 0 rgba(0, 0, 0, 0.4)'
+    }
+    isMenuOpen = !isMenuOpen
+}
+</script>
 </html>
