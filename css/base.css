@@ -120,12 +120,7 @@ body {
         border: 0;
         cursor: pointer;
     }
-
-    #menu-bar-mobile button:focus #menu-mobile {
-        height: calc(5*35px);
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-    }
-
+    
     #menu-mobile {
         position: absolute;
         height: 0;
