@@ -1,0 +1,46 @@
+/* 比赛详情页 */
+.info {
+    list-style: none;
+    padding-left: 144px;
+    
+}
+
+.info h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.info h1 a:hover {
+    color: rgb(126, 121, 121);
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* 表头样式 */
+.info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(239,178,73);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/* 表格的边框 */
+.info td, .info th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* 设置表格黑白相间 */
+.info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.info tr:hover {
+    background-color: #ddd;
+}

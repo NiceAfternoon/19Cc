@@ -17,7 +17,7 @@ body {
 #footer {
     background-color: rgb(43,43,43);
     border-bottom: 0;
-    padding: 60px;
+    padding: 3rem;
     color: rgba(220,220,220,255);
 }
 
@@ -78,6 +78,7 @@ body {
 @media screen and (max-width: 768px) {
     #bkgimg {
         padding-top: 130px;
+        
     }
 
     #navbar {
@@ -114,17 +115,19 @@ body {
         flex-direction: row-reverse;
     }
 
-    #menu-bar-mobile button {
+    #menu-bar-mobile #open #close{
         padding: 0 0.7rem;
         background-color: rgb(255, 156, 8);
         border: 0;
         cursor: pointer;
     }
 
-    #menu-bar-mobile button:focus #menu-mobile {
+    #menu-bar-mobile #open:focus  #menu-mobile {
         height: calc(5*35px);
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+        
     }
+
 
     #menu-mobile {
         position: absolute;
