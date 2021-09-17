@@ -121,6 +121,7 @@ body {
         border: 0;
         cursor: pointer;
     }
+<<<<<<< HEAD
 
     #menu-bar-mobile #open:focus  #menu-mobile {
         height: calc(5*35px);
@@ -129,6 +130,9 @@ body {
     }
 
 
+=======
+    
+>>>>>>> 5f5ff941faaffbbf57d711528abd839d728da02c
     #menu-mobile {
         position: absolute;
         height: 0;
