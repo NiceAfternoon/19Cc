@@ -66,8 +66,7 @@ body {
     }
 
     /* 菜单栏按钮高亮 */
-    #menu-bar #page-active,
-    #menu-bar a:hover {
+    #menu-bar #page-active,#menu-bar a:hover {
         background-color: rgb(250, 200, 136);
         color: white;
         font-size: 15.8px;
@@ -78,6 +77,7 @@ body {
 @media screen and (max-width: 768px) {
     #bkgimg {
         padding-top: 130px;
+        
     }
 
     #navbar {
@@ -114,13 +114,19 @@ body {
         flex-direction: row-reverse;
     }
 
-    #menu-bar-mobile button {
+    #menu-bar-mobile #open #close{
         padding: 0 0.7rem;
         background-color: rgb(255, 156, 8);
         border: 0;
         cursor: pointer;
     }
     
+    #menu-bar-mobile #open:focus  #menu-mobile {
+        height: calc(5*35px);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+    }
+    
+
     #menu-mobile {
         position: absolute;
         height: 0;
