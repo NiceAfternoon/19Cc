@@ -4,7 +4,7 @@
 #title {
     margin-top: 40px;
     padding-bottom: 20px;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     padding-left: 144px;
     margin-right: 200px;
 }
@@ -67,6 +67,26 @@ table {
     background-color: rgb(253, 218, 171);
 }
 
+/* 比赛相关中的重要事项 */
+.info .important {
+    font-weight: bold;
+}
+
+/* 使规则更易阅读 */
+.info #about div{
+    padding-left: 20px;
+}
+
+.info #about .more{
+    padding-left: 40px;
+}
+
+/* 比赛还未开始时暂时隐藏赛果 */
+.scores {
+    display: none;
+}
+
+/* 详细成绩之间的间隙 */
 .scores .total {
     word-spacing: 1rem;
 }

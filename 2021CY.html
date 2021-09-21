@@ -70,8 +70,40 @@
 
 <div id="title">2021重阳校内魔方赛</div>
     <div class="info"> 
-        <div></div>
+        <div id="about">
+            <h1>比赛相关</h1>
+            <h3>日期</h3>
+            <span>2021年10月中旬</span>
+            <h3>地点</h3>
+            <span>南昌市十九中江南楼一楼团队活动室</span>
+            <h3>主办方</h3>
+            <span>十九魔方社：2021届高二二班徐维宏、2021届高三九班何俊翔</span>
+            <h3>项目</h3>
+            <span>二阶、三阶、团体赛</span>
+            <h3>规则</h3>
+            <span>
+                <h4>一.参赛选手</h4>
+                <div class="important">1a) 三阶单次复原在三分钟以内（团体赛无此要求）即可自愿报名，每班每项限报3人。三阶单次30秒以内可不受人数限制报名。</div>
+                <div>1b) 选手可自带魔方比赛，也可使用我们提供的三阶魔方进行比赛。</div>
+                <div>1c) 选手的姓名，性别，班级及比赛结果属于公开信息。旨在查询成绩时更加方便，我们不会在其他任何地方使用。</div>
+                <div class="important">1d) 选手必须遵守赛场秩序，应做到包括但不仅限于：不大声喧哗，不外带零食，不制造垃圾。并保持一个参赛者应有的自律。这同时也是观赛者应遵守的。</div>
+                <h4>二.还原</h4>
+                <div>2a) 魔方在还原过程中可能出现POP（魔方的组成部分脱落，飞出），掉贴纸、贴片、中心盖等魔方故障，此时选手可以选择修复魔方继续还原，或是停止还原。若停止还原，则此次成绩将被认定为未还原（DNF Did Not Finish）。</div>
+                <div>
+                    2b) 当选手结束还原时，计时器停止以后魔方的静止状态可能出现以下几种情况：
+                    <div class="more">2b1) 魔方已还原或其中一层还需轻微转动使其对齐但转动角度不超过45度，则认定为正常还原。</div>
+                    <div class="more">2b2) 魔方如果还需一步还原或其中一层需要对齐但偏出角度超过45度，则认为魔方已被还原，但需要加罚时间（+2秒）。</div>
+                    <div class="more">2b3) 魔方还需超过一步还原，则认为魔方未还原（DNF）。</div>
+                </div>
+                <h4>三.成绩（成绩将公示在本网站：19cc.top）</h4>
+                <div>3a) 本次比赛的项目除团体赛外都将采用ao5（记录5次成绩并删去一个最慢与最快成绩再计算平均值）的成绩作为最终排名。</div>
+                <h4>四.团体赛</h4>
+                <div>4a) 当同一班级中有3名或以上的同学参加比赛时，即可选3人作为一队并代表班级进行比赛。</div>
+                <div>4b) 团体赛由3名选手依次复原3个三阶魔方，在第一位选手结束复原并停止计时器后第二位选手启动计时器并开始复原，直至第三名选手结束复原并停止计时器。3名选手所用的时间相加即为这一队的最终成绩。</div>
+            </span>
+        </div>
         <h1><a href="#" id="results">赛果--></a></h1>
+        <span>敬请期待</span>
         <div class="scores">
         <table>
             <tr>
@@ -198,10 +230,11 @@
             </tr>
         </table>
         </div>
-        <h1><a href="#">选手名单</a></h1>
-
-
+        <h1>选手名单</h1>
+        <span>暂无</span>
+        <br><br>
 </div>
+        <h5 style="padding-left: 144px;">欲了解比赛详细或报名比赛请联系：QQ: 3203837739或高二二班徐维宏</h5>
 
 
 
@@ -210,3 +243,20 @@
 </div>
 </body>
 </html>
+
+<script>
+    var mobileMenu = document.getElementById('menu-mobile')
+    var isMenuOpen = false
+    
+    function openMenu() {
+        if (isMenuOpen) {
+            mobileMenu.style.height = '0'
+            mobileMenu.style.boxShadow = ''
+        } else {
+            mobileMenu.style.height = 5 * 35 + 'px'
+            mobileMenu.style.boxShadow = '0 5px 10px 0 rgba(0, 0, 0, 0.4)'
+        }
+        isMenuOpen = !isMenuOpen
+    }
+    </script>
+    </html>
