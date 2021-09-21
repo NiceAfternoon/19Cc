@@ -114,19 +114,13 @@ body {
         flex-direction: row-reverse;
     }
 
-    #menu-bar-mobile #open #close{
+    #menu-bar-mobile button {
         padding: 0 0.7rem;
         background-color: rgb(255, 156, 8);
         border: 0;
         cursor: pointer;
     }
     
-    #menu-bar-mobile #open:focus  #menu-mobile {
-        height: calc(5*35px);
-        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-    }
-    
-
     #menu-mobile {
         position: absolute;
         height: 0;
