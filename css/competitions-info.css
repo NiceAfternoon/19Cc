@@ -1,0 +1,92 @@
+/* 比赛详情页 */
+
+/* 标题 */
+#title {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2.2rem;
+    padding-left: 144px;
+    margin-right: 200px;
+}
+
+
+/* 整体样式 */
+.info {
+    list-style: none;
+    margin-left: 144px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-size: small;
+    border-top: 1px #cac9c9 solid;
+    border-bottom: 1px #cac9c9 solid;
+    
+}
+
+/* 可点击标题的样式 */
+.info h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.info h1 a:hover {
+    color: rgb(126, 121, 121);
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: consolas;
+}
+
+/* 表头样式 */
+.info th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(239,178,73);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/* 表格的边框 */
+.info td, .info th {
+    padding: 8px;
+}
+
+/* 设置表格黑白相间 */
+.info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.info tr:nth-child(odd) {
+    background-color: white;
+}
+
+.info tr:hover {
+    background-color: rgb(253, 218, 171);
+}
+
+/* 比赛相关中的重要事项 */
+.info .important {
+    font-weight: bold;
+}
+
+/* 使规则更易阅读 */
+.info #about div{
+    padding-left: 20px;
+}
+
+.info #about .more{
+    padding-left: 40px;
+}
+
+/* 比赛还未开始时暂时隐藏赛果 */
+.scores {
+    display: none;
+}
+
+/* 详细成绩之间的间隙 */
+.scores .total {
+    word-spacing: 1rem;
+}
