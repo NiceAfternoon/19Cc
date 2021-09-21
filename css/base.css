@@ -66,8 +66,7 @@ body {
     }
 
     /* 菜单栏按钮高亮 */
-    #menu-bar #page-active,
-    #menu-bar a:hover {
+    #menu-bar #page-active,#menu-bar a:hover {
         background-color: rgb(250, 200, 136);
         color: white;
         font-size: 15.8px;
@@ -121,18 +120,13 @@ body {
         border: 0;
         cursor: pointer;
     }
-<<<<<<< HEAD
-
+    
     #menu-bar-mobile #open:focus  #menu-mobile {
         height: calc(5*35px);
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
-        
     }
-
-
-=======
     
->>>>>>> 5f5ff941faaffbbf57d711528abd839d728da02c
+
     #menu-mobile {
         position: absolute;
         height: 0;

@@ -1,10 +1,28 @@
 /* 比赛详情页 */
+
+/* 标题 */
+#title {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2.4rem;
+    padding-left: 144px;
+    margin-right: 200px;
+}
+
+
+/* 整体样式 */
 .info {
     list-style: none;
-    padding-left: 144px;
+    margin-left: 144px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    font-size: small;
+    border-top: 1px #cac9c9 solid;
+    border-bottom: 1px #cac9c9 solid;
     
 }
 
+/* 可点击标题的样式 */
 .info h1 a {
     text-decoration: none;
     color: black;
@@ -19,6 +37,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 30px;
+    font-family: consolas;
 }
 
 /* 表头样式 */
@@ -31,8 +50,7 @@ table {
 }
 
 /* 表格的边框 */
-.info td, .info th{
-    border: 1px solid #ddd;
+.info td, .info th {
     padding: 8px;
 }
 
@@ -41,6 +59,14 @@ table {
     background-color: #f2f2f2;
 }
 
+.info tr:nth-child(odd) {
+    background-color: white;
+}
+
 .info tr:hover {
-    background-color: #ddd;
+    background-color: rgb(253, 218, 171);
+}
+
+.scores .total {
+    word-spacing: 1rem;
 }
