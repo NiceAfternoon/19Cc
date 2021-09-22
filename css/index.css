@@ -9,8 +9,11 @@
   display: block;
   position: relative;
   box-sizing: border-box;
+  width: 58rem;
+  height: auto;
+  margin-bottom: 3rem;
   padding: 4px 20px;
-  border: 3px #ddd solid;
+  border: 3px rgb(252, 221, 180) solid;
   border-radius: 10px;
   background-color: #fff;
   color: #000;
@@ -19,7 +22,7 @@
 }
 
 .news-item:hover {
-  border: 3px #aaa solid;
+  border: 3px rgb(239,178,73) solid;
 }
 
 .news-item h2, p {
