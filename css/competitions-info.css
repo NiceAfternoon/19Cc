@@ -2,11 +2,12 @@
 
 /* 标题 */
 #title {
-    margin-top: 40px;
-    padding-bottom: 20px;
+    margin: 40px 200px 20px 144px;
+    /* margin-top: 40px;
+    padding-bottom: 20px; */
     font-size: 2.2rem;
-    padding-left: 144px;
-    margin-right: 200px;
+    /* padding-left: 144px;
+    margin-right: 200px; */
 }
 
 
@@ -89,4 +90,30 @@ table {
 /* 详细成绩之间的间隙 */
 .scores .total {
     word-spacing: 1rem;
+}
+
+/* 联系方式信息 */
+.contact-info {
+    margin-left: 144px;
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+    #title {
+        margin: 15px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .info {
+        margin: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        margin: 0;
+        padding: 20px 10px;
+        text-align: center;
+    }
 }
