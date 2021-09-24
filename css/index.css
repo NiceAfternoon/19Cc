@@ -35,3 +35,15 @@
   right: 20px;
   bottom: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  #news-list {
+    margin: 20px 0 0 0;
+    
+  }
+
+  .news-item {
+    width: 90%;
+    margin: 0 auto 25px auto;
+  }
+}
