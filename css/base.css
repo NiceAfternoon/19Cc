@@ -21,6 +21,17 @@ body {
     color: rgba(220,220,220,255);
 }
 
+#footer .Copy {
+    padding-left: 100px;
+    position: absolute;
+    padding-bottom: 3rem;
+}
+
+.footer-info {
+    position: relative;
+    padding-left: 300px;
+}
+
 /* 桌面端适配样式 */
 @media screen and (min-width: 769px) {
 
