@@ -97,6 +97,124 @@ table {
     margin-left: 144px;
 }
 
+/* 项目图标 */
+@font-face {
+    font-family: event-icon;
+    src: url(../fonts/a629b101.eot);
+    src: url(../fonts/a629b101.eot) format('embedded-opentype'),
+      url(../fonts/7e72e072.ttf) format('truetype'),
+      url(../fonts/e1b8e346.woff) format('woff'),
+      url(../fonts/522e7e53.svg) format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  .event-icon {
+    font-family: event-icon !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .event-icon-333:before {
+    content: '\E900';
+  }
+  .event-icon-222:before {
+    content: '\E901';
+  }
+  .event-icon-444:before {
+    content: '\E902';
+  }
+  .event-icon-555:before {
+    content: '\E903';
+  }
+  .event-icon-666:before {
+    content: '\E904';
+  }
+  .event-icon-777:before {
+    content: '\E905';
+  }
+  .event-icon-333bf:before {
+    content: '\E906';
+  }
+  .event-icon-333fm:before {
+    content: '\E907';
+  }
+  .event-icon-333oh:before {
+    content: '\E908';
+  }
+  .event-icon-333ft:before {
+    content: '\E909';
+  }
+  .event-icon-minx:before {
+    content: '\E90A';
+  }
+  .event-icon-pyram:before {
+    content: '\E90B';
+  }
+  .event-icon-clock:before {
+    content: '\E90C';
+  }
+  .event-icon-skewb:before {
+    content: '\E90D';
+  }
+  .event-icon-sq1:before {
+    content: '\E90E';
+  }
+  .event-icon-444bf:before {
+    content: '\E90F';
+  }
+  .event-icon-555bf:before {
+    content: '\E910';
+  }
+  .event-icon-333mbf:before,
+  .event-icon-submission:before {
+    content: '\E911';
+  }
+  .event-icon-magic:before {
+    content: '\E912';
+  }
+  .event-icon-mmagic:before {
+    content: '\E913';
+  }
+  .event-icon-stack:before {
+    content: '\E914';
+  }
+  .event-icon-funny:before {
+    content: '\E91B';
+  }
+  .event-icon-registration:before {
+    content: '\E915';
+  }
+  .event-icon-intro:before {
+    content: '\E916';
+  }
+  .event-icon-break:before {
+    content: '\E917';
+  }
+  .event-icon-lunch:before {
+    content: '\E918';
+  }
+  .event-icon-ceremony:before {
+    content: '\E919';
+  }
+  .event-icon-lucky:before {
+    content: '\E91A';
+  }
+  .event-icon-redi:before {
+    content: '\E91D';
+  }
+  .event-icon-kilominx:before {
+    content: '\E91E';
+  }
+  .event-icon-333relay:before {
+    content: '\E91C';
+  }
+  
+
 /* 移动端适配 */
 @media screen and (max-width: 768px) {
     #title {
