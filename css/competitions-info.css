@@ -39,6 +39,14 @@ table {
     width: 100%;
     margin-bottom: 30px;
     font-family: consolas;
+     
+}
+
+/* 隐藏部分内容 */
+.list {
+    display: block;
+    height: 400px;
+    overflow-y: scroll;
 }
 
 /* 表头样式 */
