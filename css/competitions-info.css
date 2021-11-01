@@ -90,10 +90,10 @@ table {
     padding-left: 40px;
 }
 
-/* 比赛还未开始时暂时隐藏赛果 */
+/* 比赛还未开始时暂时隐藏赛果
 .scores {
     display: none;
-}
+} */
 
 /* 详细成绩之间的间隙 */
 .scores .total {
